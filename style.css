@@ -1,0 +1,45 @@
+body{
+  margin:0;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+
+h1{
+  style=color: black;
+  text-align: center;
+  margin: 0px;
+}
+h4 {
+  style=color: black;
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding: 7px;
+  margin: 0px;
+}
+#grid ol{
+  border-right: 2px solid black;
+  width:200px;
+  margin: 0;
+  padding:10px;
+  padding-left: 20px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+#picture{
+  padding-top: 10px;
+}
+@media(max-width:630px){
+  #grid{
+    display: block;
+  }
+  #grid ol{
+    border-right: none;
+  }
+  h4{
+    border-bottom:none;
+  }
+}
