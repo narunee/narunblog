@@ -32,7 +32,7 @@ h4 {
 #picture{
   padding-top: 10px;
 }
-@media(max-width:630px){
+@media(max-width:750px){
   #grid{
     display: block;
   }
